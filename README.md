@@ -15,7 +15,7 @@ $ sudo dpkg -i cuda-repo-ubuntu1804-10-1-local-10.1.105-418.39_1.0-1_amd64.deb
 $ sudo apt-key add /var/cuda-repo-<version>/7fa2af80.pub
 $ sudo apt-get update
 $ sudo apt install cuda-10.1
-$ echo 'export PATH=/usr/local/cuda-10.1/bin:$PATH' >> ~/.bashrcInstall-OpenCV
+$ echo 'export PATH=/usr/local/cuda-10.1/bin:$PATH' >> ~/.bashrc
 ```
 
 
